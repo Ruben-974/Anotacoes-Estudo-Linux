@@ -113,3 +113,8 @@ Por fim, podemos listar outros diretorios sem ter que usar o cd para listar o di
 - `ls -l /var/`
 
 Irá retornar uma lista detalhada dos arquivos da pasta var
+
+## [*Aula #06*](https://www.youtube.com/watch?v=YZyuUM-4AnQ) - Limpando a tela do terminal (Comando clear)
+
+O comando `clear` basicamente limpa a tela do terminal, nada de especial alem disso, podemos usar o atalho ctrl + l para "limpar" o terminal, esse atalho somente pula algumas linhas para deixar o terminal mais limpo, mas os comando antigos continuam lá
+
