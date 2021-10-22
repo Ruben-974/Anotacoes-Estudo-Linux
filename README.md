@@ -99,17 +99,17 @@ Também podemos unir parametros
 - `ls -tr` - Ordena os arquivos pela data de modificação
 
 ```
-drwxr-xr-x 2 ruben974 ruben974 4096 out 21 17:49  Público
-drwxr-xr-x 2 ruben974 ruben974 4096 out 21 17:49  Modelos
-drwxr-xr-x 7 ruben974 ruben974 4096 out 21 19:37  Música
-drwxr-xr-x 3 ruben974 ruben974 4096 out 22 00:59  Imagens
-drwxr-xr-x 2 ruben974 ruben974 4096 out 22 01:07  Vídeos
-drwxr-xr-x 5 ruben974 ruben974 4096 out 22 01:24  Documentos
-drwxr-xr-x 3 ruben974 ruben974 4096 out 22 11:56  Downloads
+drwxr-xr-x 2 user user 4096 out 21 17:49  Público
+drwxr-xr-x 2 user user 4096 out 21 17:49  Modelos
+drwxr-xr-x 7 user user 4096 out 21 19:37  Música
+drwxr-xr-x 3 user user 4096 out 22 00:59  Imagens
+drwxr-xr-x 2 user user 4096 out 22 01:07  Vídeos
+drwxr-xr-x 5 user user 4096 out 22 01:24  Documentos
+drwxr-xr-x 3 user user 4096 out 22 11:56  Downloads
 ```
 
 Por fim, podemos listar outros diretorios sem ter que usar o cd para listar o diretório desejado apenas dizendo o diretório após os parâmetros
 
 - `ls -l /var/`
 
-Irá retornar a lista de arquivos da pasta var
+Irá retornar uma lista detalhada dos arquivos da pasta var
