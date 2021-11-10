@@ -160,3 +160,14 @@ Arquivo de exemplo número 2
 "
 
 Podemos criar arquivos usando o comando `cat > nome_do_arquivo.txt`, apesar de não ser a forma mais adequada para isso, vocẽ poderá digitar e quando finalizado use Ctrl + C para finalizar a digitação do documento
+
+podemos usar o parâmetro -n para mostrar as linhas do aquivo, exemploe: `cat -n junção.txt`
+
+"
+
+1  Olá, Mundo!
+
+2  Arquivo de exemplo número 2
+
+"
+
