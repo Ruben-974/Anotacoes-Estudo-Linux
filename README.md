@@ -118,3 +118,45 @@ Irá retornar uma lista detalhada dos arquivos da pasta var
 
 O comando `clear` basicamente limpa a tela do terminal, nada de especial alem disso, podemos usar o atalho ctrl + l para "limpar" o terminal, esse atalho somente pula algumas linhas para deixar o terminal mais limpo, mas os comando antigos continuam lá
 
+## [*Aula #07*](https://www.youtube.com/watch?v=6o1ucZJNXuc&list=PLnDvRpP8BnezDTtL8lm6C-UOJZn-xzALH&index=7&t=1s) - Visualizando arquivos no terminal (Comando cat)
+
+O comando `cat` serve basicamente para visualizar arquivos, com o comando `cat` você pode visulizar arquivos .txt pelo terminal, ou até outros arquivos como .py .js .html .css etc
+
+Suponhamos que você irá abir um arquivo .txt chamado "exemplo.txt" e nele tem o conteudo "Olá, Mundo!"
+usando `cat exemplo.txt` irá retonrar "Olá, Mundo!"
+
+Tembém podemos abrir 2 arquvivos concatenados, criemos o arquivo "exemplo2.txt" seu conteuso será "Arquivo de exemplo número 2"
+
+Usando `cat exemplo.txt exemplo2.txt` retornará:
+
+"
+
+Olá, Mundo!
+
+Arquivo de exemplo número 2
+
+"
+
+Podemos usar o mesmo arquivo se desejado `cat exemplo.txt exemplo.txt`
+
+"
+
+Olá, Mundo!
+
+Olá, Mundo!
+
+"
+
+Podemos criar um arquivo concatenado usando o > vejamos `cat exemplo.txt exemplo2.txt > junção.txt`
+
+"junção.txt" será criado, quando visualizado (`cat junção.txt`) irá mostrar:
+
+"
+
+Olá, Mundo!
+
+Arquivo de exemplo número 2
+
+"
+
+Podemos criar arquivos usando o comando `cat > nome_do_arquivo.txt`, apesar de não ser a forma mais adequada para isso, vocẽ poderá digitar e quando finalizado use Ctrl + C para finalizar a digitação do documento
