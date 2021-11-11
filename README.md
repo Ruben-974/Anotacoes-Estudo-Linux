@@ -171,3 +171,10 @@ podemos usar o parâmetro -n para mostrar as linhas do aquivo, exemploe: `cat -n
 
 "
 
+## [*Aula #08*](https://www.youtube.com/watch?v=5MF26dcT2J8&list=PLnDvRpP8BnezDTtL8lm6C-UOJZn-xzALH&index=8) - Criando arquivos (Comando touch)
+
+O comando touch serve para criar um arquivo ou atualizar a data de modificação
+
+Criando um arquivo `touch teste.txt` o arquivo "teste.txt"
+
+Suponhamos que temos um arquivo chamado "antigo.txt" e queremos atualizar a sua data de modificação, foi então use `touch antigo.txt`
