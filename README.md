@@ -177,4 +177,21 @@ O comando touch serve para criar um arquivo ou atualizar a data de modificação
 
 Criando um arquivo `touch teste.txt` o arquivo "teste.txt"
 
-Suponhamos que temos um arquivo chamado "antigo.txt" e queremos atualizar a sua data de modificação, foi então use `touch antigo.txt`
+Suponhamos que temos um arquivo chamado "antigo.txt" e queremos atualizar a sua data de modificação (para data atual), foi então use `touch antigo.txt`
+
+## [*Aula #09*](https://www.youtube.com/watch?v=5MF26dcT2J8&list=PLnDvRpP8BnezDTtL8lm6C-UOJZn-xzALH&index=8) - Como buscar comandos no Linux (comando history)
+
+Analisando historico de comando no terminal, podemos acessar alguns comando recentes usando as setas "cima" e "baixo" do teclado para coisas simples.
+Para analizar um historico mais completo você pode usar o comando `history` que irá retornar até os 500 ultimos comandos digitados, exemplo:
+
+```
+1    cd ~
+2    ls
+3    touch teste.py
+...
+```
+
+podemos fazer uma pesquisa no nosso historico usando "ctrl" + "r" e digitar alguma coisa, e retornará o comando mais semelhando encontrado
+
+```(reverse-i-search)`cl': clear```
+
